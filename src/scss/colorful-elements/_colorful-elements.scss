@@ -115,13 +115,13 @@
     }
 
     .contact-info__icon {
-        .material-icons {
+        .material-icons, .material-symbols-outlined {
             color: $color;
         }
     }
 
     .service__icon {
-        .material-icons {
+        .material-icons, .material-symbols-outlined {
             color: $color;
         }
     }

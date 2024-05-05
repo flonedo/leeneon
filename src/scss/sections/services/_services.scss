@@ -20,13 +20,20 @@
 }
 
 .service__icon {
-    .material-icons {
+    .material-icons, .material-symbols-outlined {
         font-size: pxToRem(40px);
         
         @include mq($breakpoint-md){
             font-size: pxToRem(45px);
         }
     }
+    /*material-symbols-outlined{
+        font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+    }*/
 }
 
 .service__p {
