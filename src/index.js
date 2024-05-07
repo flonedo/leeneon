@@ -1,7 +1,7 @@
 import "normalize.css";
 import "./scss/main.ltr.scss";
 import "./scss/themes.scss";
-import "./scss/purple.scss";
+import "./scss/orange.scss";
 import "./scss/custom.scss";
 
 import imagesLoaded from "imagesloaded";
