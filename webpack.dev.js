@@ -12,7 +12,11 @@ module.exports = merge(common, {
         filename: "[name].js",
         path: path.resolve(__dirname, "dist"),
         assetModuleFilename: "./assets/[name][ext]"
-    },    
+    },  
+    //Don't verify connected clients are part of allowed hosts. Project can run on localhost:8080 from gitpod
+    devServer: {
+        disableHostCheck: true
+      },  
     plugins: [
         new MiniCssExtractPlugin(),
         new HtmlWebpackPlugin({
