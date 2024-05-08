@@ -24,7 +24,8 @@ $img-offset: 15px;
         width: 80%;
     }
 }
-
+//Uncomment to show the shadow behind the first from top image container
+/*
 .about__img-bg {
     margin-#{$start-direction}: 0;
     margin-#{$end-direction}: auto;
@@ -36,7 +37,7 @@ $img-offset: 15px;
     @include theme-transition;
 
     @include animoff();
-}
+}*/
 
 .about__content {
     margin-top: pxToRem($img-offset * 6);
