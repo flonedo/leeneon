@@ -1,3 +1,4 @@
+
 import { 
     getEl,
     queryAll,
@@ -164,4 +165,4 @@ export default class Contact {
             this.DOM.contactFormSubmitButton.classList.remove('button--spinner');
         }, 2000);
     }
-}
+} 

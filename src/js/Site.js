@@ -2,7 +2,7 @@ import 'focus-visible';
 import SiteHeader from "./sections/SiteHeader";
 import AboutMe from "./sections/AboutMe";
 import Portfolio from "./sections/Portfolio";
-import Contact from "./sections/Contact";
+//import Contact from "./sections/Contact"; //Uncomment for contact form
 import A11yPreferences from "./sections/A11yPreferences";
 import Preloader from "./sections/Preloader";
 import GreetingClass  from "./libraries/greeting-class";
@@ -55,7 +55,7 @@ export default class Site {
             new SiteHeader();
             new AboutMe();
             new Portfolio();
-            new Contact();
+            //new Contact(); //Uncomment for contact form
             new A11yPreferences(this.siteState);
             new Preloader(this.siteState);
         }
