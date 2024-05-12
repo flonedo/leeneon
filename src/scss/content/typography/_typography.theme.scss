@@ -4,6 +4,7 @@
     $background: map-get($theme, background);
     $is-dark: map-get($theme, is-dark);
 
+    
     h5,
     .heading-5 {
         color: $secondary;
