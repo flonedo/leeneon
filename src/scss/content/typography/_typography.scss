@@ -44,11 +44,11 @@ h4,
 
 h5,
 .heading-5 {
-    font-size: pxToRem(12px);
+    font-size: pxToRem(16px);
     letter-spacing: 0.15em;
 
     @include mq($breakpoint-md) {
-        font-size: pxToRem(12px);
+        font-size: pxToRem(14px);
     }
 }
 
