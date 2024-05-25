@@ -46,7 +46,6 @@ h5,
 .heading-5 {
     font-size: pxToRem(12px);
     letter-spacing: 0.15em;
-    text-transform: uppercase;
 
     @include mq($breakpoint-md) {
         font-size: pxToRem(12px);
